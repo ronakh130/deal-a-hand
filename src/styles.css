@@ -9,6 +9,9 @@ html {
 
 h1 {
   color: black;
+  letter-spacing: 0.7rem;
+  -webkit-text-stroke-width: 0.005rem;
+  -webkit-text-stroke-color: red;
 }
 
 h4 {
