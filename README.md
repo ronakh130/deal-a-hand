@@ -1,3 +1,24 @@
+# Transcend - Front End Takehome
+
+## How to install and run
+
+### To install
+```
+git clone https://github.com/ronakh130/deal-a-hand.git
+cd deal-a-hand
+npm i
+```
+
+### To Run
+```
+npm start (to run app)
+npm run test (to run tests)
+```
+
+After executing the start command, a new tab should automatically open in your default browser. If it either doesn't open or you'd like to manually open the site, visit http://localhost:3000/.
+
+See below for original prompt:
+
 # Deal a Hand
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
