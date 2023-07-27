@@ -1,0 +1,6 @@
+.emptyDeck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 0, 0);
+}

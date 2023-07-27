@@ -1,5 +1,9 @@
 .hand {
   display: flex;
+  gap: 1rem;
   flex-wrap: wrap;
-  width: 50%;
+  width: 95%;
+  height: 10%;
+  margin: 0 2.5%;
+  padding: 1rem 0;
 }

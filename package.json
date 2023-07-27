@@ -6,14 +6,16 @@
   "main": "src/index.js",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "18.2.0",
+    "react-dom": "latest",
     "react-redux": "^8.1.1",
     "react-scripts": "latest"
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@babel/runtime": "7.13.8"
+    "@babel/runtime": "7.13.8",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "latest"
   },
   "scripts": {
     "start": "react-scripts start",

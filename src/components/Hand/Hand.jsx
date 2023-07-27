@@ -5,12 +5,12 @@ import { useSelector } from 'react-redux';
 import './Hand.css';
 
 export const Hand = () => {
-  const { hand } = useSelector((state) => state.deck);
+  const { hand } = useSelector((state) => state.deckReducer);
 
   return (
     <div className='hand'>
-      {hand.map((ele) => (
-        <Card card={ele} />
+      {hand.map((ele, ind) => (
+        <Card card={ele} pos={ind} key={ele}/>
       ))}
     </div>
   );
