@@ -1,4 +1,5 @@
 import { Hand } from './components/Hand/Hand';
+import { Header } from './components/Header/Header';
 import { InputField } from './components/InputField/InputField';
 
 import './styles.css';
@@ -12,11 +13,7 @@ import './styles.css';
 export default function App() {
   return (
     <div className='App'>
-      <div className='header'>
-        <h1>Deal-a-Hand!</h1>
-        <h4>For when you just NEED to draw cards!</h4>
-        <h4>(Click cards to remove them from your hand)</h4>
-      </div>
+      <Header />
       <InputField />
       <Hand />
     </div>

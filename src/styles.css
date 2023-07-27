@@ -7,23 +7,3 @@ html {
   padding: 0;
 }
 
-h1 {
-  color: black;
-  letter-spacing: 0.7rem;
-  -webkit-text-stroke-width: 0.005rem;
-  -webkit-text-stroke-color: red;
-}
-
-h4 {
-  color: black;
-  font-style: italic;
-  font-weight: 900;
-}
-
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  line-height: 0.01rem;
-}
