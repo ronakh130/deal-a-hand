@@ -1,6 +1,10 @@
 # Transcend - Front End Takehome
 
-## How to install and run
+## To view on web
+
+Visit <https://deal-a-hand.vercel.app/>
+
+## To install and run
 
 ### To install
 
